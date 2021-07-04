@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/check_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_1"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_2"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_3"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_4"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_6"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/check_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_7"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_8"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_9"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_10"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_11"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_12"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checks_desc_13"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/check_begin_13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_grey" />
+
+            <ImageView
+                android:id="@+id/check_fail_13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_red" />
+
+            <ImageView
+                android:id="@+id/check_done_13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/dummy_desc"
+                android:src="@drawable/ic_verified_green" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
